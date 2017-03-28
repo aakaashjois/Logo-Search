@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Logo Search</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Jim+Nightshade" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Society Education Programs</h1>
+    </header>
+    <main>
+        <form class="user-choice">
+            <select id="program">
+                <option disabled selected value="default">PROGRAM</option>
+                <option value="scholarship">Scholarship Program</option>
+                <option value="loan">Loan Program</option>
+            </select>
+            <select id="education"> 
+                <option disabled selected value="default">EDUCATION</option>
+                <option value="k-12">K-12</option>
+                <option value="high-school">High School</option>
+            </select>
+            <div class="submit-button">
+                <input type="submit">
+            </div>
+        </form>
+        <div class="logos">
+            <figure><img src="img/ACI.png" class="logo gray scholarship high-school"></figure>
+            <figure><img src="img/AFE.png" class="logo gray loan high-school"></figure>
+            <figure><img src="img/ACM.png" class="logo gray high-school k-12"></figure>
+            <figure><img src="img/ACI.png" class="logo gray loan high-school"></figure>
+            <figure><img src="img/ACM.png" class="logo gray scholarship high-school"></figure>
+            <figure><img src="img/ACI.png" class="logo gray loan k-12"></figure>
+            <figure><img src="img/AFE.png" class="logo gray scholarship high-school"></figure>
+            <figure><img src="img/ACM.png" class="logo gray k-12"></figure>
+        </div>
+
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-3.2.0.min.js"><\/script>')
+    </script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
